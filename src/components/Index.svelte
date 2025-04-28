@@ -15,7 +15,7 @@
 	let value = $state();
 	let scrollY = $state();
 	// svelte-ignore non_reactive_update
-	let selected = '';
+	let selected = $state('');
 
 	const explanation = [
 		"Oakland was once a thriving sports town, home to three major professional sports teams.",
@@ -28,11 +28,12 @@
 
 	$inspect({value,scrollY})
 
+
 </script>
 
 <!-- svelte-ignore css_unused_selector -->
 <svelte:window bind:scrollY={scrollY} />
-<section class="top-content" id="scrolly">
+<section id="scrolly">
 	<div class="sticky">
 		
 		<!-- svelte-ignore a11y_missing_attribute -->
@@ -217,9 +218,13 @@
 
 </section>
 
+
 <section>
 	<div class="text">
 		<h4>Click each section to explore the impact of professional sports in Oakland.</h4>
+	</div>
+
+	<div class="box">
 	</div>
 
 	<nav class="navbar">
@@ -231,20 +236,49 @@
 		<button on:click={() => selected = 'fans'}>The Fans</button>
 	</nav>
 
+	<div class="box">
+	</div>
+
 	{#if selected}
 		<section class="dynamic-content">
 			{#if selected === 'roots'}
-				<h2>Roots Content</h2>
+				<div class="content">
+					<h2>Roots Content</h2>
+					<p>This is the Roots section.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+					<p>putting in a bunch of paragraphs to see a whole page.</p>
+				</div>
 			{:else if selected === 'city'}
 				<h2>City Content</h2>
-				<p>This is where the Timeline will go.</p>
+				<p>This is where the timeline will go.</p>
 			{:else if selected === 'fans'}
 				<h2>Fans Section</h2>
 				<p>This is the fans section</p>
 			{/if}
 		</section> 
 	{/if}
-
+	  
 </section>
 	
 
@@ -274,6 +308,7 @@
 		text-align: center;
 		width: 40vw;
 		box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0.8);
+		font-size: x-large;
 	}
 
 	.step:last-of-type {
@@ -330,23 +365,33 @@
 
 	.navbar {
 		display: flex;
-		gap: 2rem;
-		padding: 0;
+		gap: 7rem;
+		padding: 0.7rem 0;
 		justify-content: center;
 		margin-top: 2rem;
 		margin-bottom: 2rem;
+		background: #2e86ab;
+
+		position: sticky;
+		top: 0;
+		z-index: 10;
+		margin: 0;
 	}
 
 	.dynamic-content {
-		margin-top: 5rem;
 		padding: 2rem;
-		background: #f4f4f4;
-		border-radius: 1rem;
+		background: #254441;
+		color: white; 
 	}
 
 	button {
 		padding: 0.5rem 1rem;
 		font-size: 2rem;
+		border: 2px solid black; 
+		border-radius: 8px;
+		color: #FCE354;
+		background-color: #15BA7D;
+		box-shadow: 6px 6px #254441;
 	}
 
 	.text {
@@ -354,6 +399,17 @@
 		margin-top: 2rem;
 		margin-bottom: 2rem;
 	}
+	
+	.content {
+		text-align: center;
+	}
+
+	.box {
+		background-color: #2e86ab;
+		padding: 1.5rem;
+		margin: 0;
+	}
+
 </style>
 
 
