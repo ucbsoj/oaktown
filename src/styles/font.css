@@ -42,3 +42,19 @@
 	font-stretch: normal;
 	font-display: swap;
 }
+
+@font-face {
+	font-family: "Arya Triple Alt";
+	src: url("http://localhost:5173/fonts/arya-triple-alt.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: "Mexcellent 3D";
+    src: url("http://localhost:5173/fonts/Mexcellent3D.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+  
