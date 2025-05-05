@@ -992,6 +992,11 @@
 		text-decoration: underline;
 	}
 
+	h1, h2 {
+  		font-family: "Mexcellent 3D", sans-serif !important;
+	}
+
+
 </style>
 
 
