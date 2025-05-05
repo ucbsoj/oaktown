@@ -359,7 +359,7 @@
 					<h2 class="title" style:font-size={"6.5rem"} style:text-align="right" style:margin-bottom={"0"}
 					style:margin-top={"0"}>The City</h2>
 					<Image src="demo/assets/images/dave-still.jpg" alt="Dave Newhouse" />
-					<h2>Meet Dave Newhouse!</h2>
+					<h3 style:font-size={"2.2rem"}>Meet Dave Newhouse!</h3>
 					<p> After covering Oakland sports for 60 years, former <i>Oakland Tribune</i>  sports columnist Dave Newhouse 
 						(86) came out of retirement to co-author "Goodbye, Oakland: Winning, Wanderlust, and a Sports 
 						Town's Fight for Survival." In their book, Dave and former sports executive Andy Dolich explore 
