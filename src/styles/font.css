@@ -57,4 +57,12 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Mexcellent 3D";
+    src: url("https://riley-ramirez.github.io/oaktown/fonts/Mexcellent3D.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
   
