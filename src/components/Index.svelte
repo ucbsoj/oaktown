@@ -45,7 +45,7 @@
 			{#if value === undefined && scrollY < 2000}
 				<div class="headline" transition:fade>
 					<h1 class="title" style:font-size={"12.5rem"} style:line-height={"1"} style:padding={"0 1.5rem"}
-					style:margin-top={"3.5rem"} style:margin-bottom={"1rem"}>OAKTOWN</h1>
+					style:margin-top={"3.5rem"} style:font-family={"Mexcellent 3D"} style:margin-bottom={"1rem"}>OAKTOWN</h1>
 					<h6 style:margin-bottom={"2rem"} style:text-wrap-style="balance">A city once spoiled with championship 
 						teams is learning to rebuild its sports scene from the 'roots' up.</h6>
 					<p style:margin-bottom={"3.5rem"}>By Marquis Chambers, Riley Ramirez, Jessica Blough and Daniela Sandoval</p>
@@ -621,7 +621,7 @@
 			{:else if selected === 'fans'}
 				<div class="content" style:padding-top={"1rem"}>
 					<div class="grid" style:grid-column-gap={"75px"} style:margin-bottom={"1rem"}>
-						<div class="group" style:padding-left={"0.5rem"}>
+						<div class="group">
 							<h2 class="title" style:font-size={"6rem"} style:text-align="left" 
 							style:margin-bottom={"2rem"} style:margin={"0"} style:white-space={"nowrap"}>The Fans</h2>
 							<p>A new chapter is unfolding for Oakland sports fans across three teams: 

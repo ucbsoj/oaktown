@@ -59,10 +59,10 @@
 }
 
 @font-face {
-    font-family: "Mexcellent 3D";
-    src: url("https://riley-ramirez.github.io/oaktown/fonts/Mexcellent3D.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+	font-family: "Mexcellent 3D";
+	src: url("../fonts/Mexcellent3D.woff") format("woff"); /* Adjust path as needed */
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+  }  
   
