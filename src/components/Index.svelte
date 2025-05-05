@@ -602,7 +602,7 @@
 									gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 									<p class="caption">
 										Credit: <a href="https://www.youtube.com/watch?v=mOV4vo1eo1M" 
-										class="link">ABC7 News</a>, Larry Beil rips into A's owner John Fischer for his letter to Oakland fans. Sept. 23, 2024.</p>
+										class="link">ABC7 News</a>, Larry Beil rips into A's owner John Fisher for his letter to Oakland fans. Sept. 23, 2024.</p>
 								</div>
 							</div>
 					</details>
