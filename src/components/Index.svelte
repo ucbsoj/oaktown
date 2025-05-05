@@ -513,7 +513,7 @@
 									could rival deep-pocketed franchises. It wasn’t just about the wins — it was about reshaping the game’s 
 									future and leaving an enduring legacy on and off the field. </p>
 								
-								<p>In 2005 John Fisher and his business partner Lew Wolf would buy the Oakland A’s and shortly after will 
+								<p>In 2005, John Fisher and his business partner Lew Wolf would buy the Oakland A’s and shortly after will 
 									begin searching for a new home for the organization. </p>
 							</div>
 							<div class="youtube-video" style:height={"100%"}>
