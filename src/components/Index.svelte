@@ -289,7 +289,7 @@
 					alt="Roots"
 					autoplay={true}
 					loop={true} />
-				<h1 class="hero-header" style:font-size={"7rem"} style:text-align="center">The Roots</h1>
+				<h1 class="hero-header" style:font-size={"6.5rem"} style:text-align="center">The Roots</h1>
 			</section>
 				<div class="content"  style:margin-top={"2rem"}>
 					<!-- <h2 class="title" style:font-size={"7rem"} style:text-align="center">The Roots</h2> -->
@@ -319,7 +319,7 @@
 					</div>
 				<div style:height={"87%"}>
 					<Image src="demo/assets/images/roots-game-zoomed.png" alt="April 19 Roots Game" 
-					caption="Roots play the Orange County SC at the Coliseum, winning 2-0. Photo credit: Jessica Blough" />
+					caption="Roots beat the Orange County SC 2-0 at their April 19 game. Photo credit: Jessica Blough" />
 				</div>
 				</div>
 
@@ -349,24 +349,25 @@
 						they are carrying on a cultural legacy that has defined Oakland sports for generations.</p>
 					
 					<Video src="demo/assets/videos/roots-riley.mp4" alt="Camden Riley Interview"
-						poster="demo/assets/images/roots-thumbnail.jpeg"/>
+						poster="demo/assets/images/roots-thumbnail.jpeg"
+						caption="Video by Marquis Chambers, Jessica Blough and Daniela Sandoval"/>
 						
 				</div>
 
 			{:else if selected === 'city'}
 				<div class="content" style:margin-top={"0"}>
-					<h2 class="title" style:font-size={"7rem"} style:text-align="right" style:margin-bottom={"0"}
+					<h2 class="title" style:font-size={"6.5rem"} style:text-align="right" style:margin-bottom={"0"}
 					style:margin-top={"0"}>The City</h2>
 					<Image src="demo/assets/images/dave-still.jpg" alt="Dave Newhouse" />
 					<h2>Meet Dave Newhouse!</h2>
-					<p> After covering Oakland sports for 60 years, former Oakland Tribune sports columnist Dave Newhouse 
+					<p> After covering Oakland sports for 60 years, former <i>Oakland Tribune</i>  sports columnist Dave Newhouse 
 						(86) came out of retirement to co-author "Goodbye, Oakland: Winning, Wanderlust, and a Sports 
 						Town's Fight for Survival." In their book, Dave and former sports executive Andy Dolich explore 
 						the history of professional sports in Oakland and how it has shaped the city's identity. 
 						We spoke to Dave to learn more about the different eras of Oakland sports and understand how the city 
-						has gotten to where it is today. <strong style:color={"#FCE354"}>Click</strong> on the decades below 
-						to explore professional sports in Oakland over the years and hear stories from Dave!
-					</p>
+						has gotten to where it is today. </p>
+					<p><strong style:color={"#FCE354"}>Click</strong> on the decades below 
+						to learn about Oakland's sports history and hear stories from Dave!</p>
 
 					<details>
 						<summary>1900s - The Beginning of a Sports Town</summary>
@@ -424,15 +425,19 @@
 							<h3 class="dave-text">The 1975 Warriors</h3>
 						</div>
 					
-						<div class="grid" style:padding={"2rem"}>
-						<p>Nicknamed the 'Swingin' A's,' the Oakland Athletics dominated baseball in the 1970s, winning three 
+						<div class="grid" style:padding-top={"1rem"} style:padding-bottom={"0.5rem"}>
+						<p style:padding-left={"1.5rem"}>Nicknamed the 'Swingin' A's,' the Oakland Athletics dominated baseball in the 1970s, winning three 
 							straight World Series championships from 1972 to 1974 and capturing five consecutive American League 
 							West Division titles between 1971 and 1975. </p>
 
-						<iframe width="100%" height="400" src="https://www.youtube.com/embed/niqLDoHkfbg?si=4q0kJfWXlKuMzGe6" 
-						title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-						encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-						allowfullscreen></iframe>
+						<div class="youtube-video">
+							<iframe width="100%" height="300" src="https://www.youtube.com/embed/niqLDoHkfbg?si=4q0kJfWXlKuMzGe6" 
+							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+							encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+							allowfullscreen></iframe>
+							<p class="caption">Credit: <a href="https://www.youtube.com/watch?v=niqLDoHkfbg" class="link">AP Archive</a>, 
+								1972 Oakland A's World Series Champions Parade</p>
+						</div>
 						</div>
 
 					</details>
@@ -446,6 +451,17 @@
 							McGwire, and Dennis Eckersley, making three consecutive World Series appearances from 1988 to 1990, 
 							including a Bay Area showdown victory against the Giants in 1989, while also experiencing significant
 							managerial changes, such as Billy Martin’s leadership in 1980, which introduced 'Billy Ball'. </p>
+						
+						<div class="youtube-video">
+							<iframe width="100%" height="450" src="https://www.youtube.com/embed/3OJ9IlKn9w4?si=pN9yxiS0lqvB11Sv" 
+							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+							encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+							allowfullscreen></iframe>
+							<p class="caption">Credit: <a href="https://www.youtube.com/watch?v=3OJ9IlKn9w4" 
+								class="link">MLB</a>, 
+								Rickey Henderson leads off Game 4 of the World Series with a home run to give the Athletcs an early 
+								lead over the Giants. Oct. 28, 1989.</p>
+						</div>
 
 						<p>Walter A. Haas Jr. acquired ownership of the A's from Charles Finley at the beginning of the decade. 
 							“The Haas family was the most wonderful sports ownership. They bought the A’s and all of a sudden 
@@ -462,12 +478,16 @@
 							Mitch Richmond, and Tim Hardaway leading a high-scoring, fast-paced offense that helped the team 
 							reach the playoffs multiple times, including a run to the Western Conference Semifinals in 1990-91, 
 							though instability and changes in personnel and coaching followed. </p>
-						
-						<iframe width="100%" height="500"
-						src="https://www.youtube.com/embed/JqzWUxtukbA?si=cBNr8tKDMMDh-fWT" 
-						title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-						encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-						allowfullscreen></iframe>
+
+						<div class="youtube-video">
+							<iframe width="100%" height="500"
+							src="https://www.youtube.com/embed/JqzWUxtukbA?si=cBNr8tKDMMDh-fWT" 
+							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+							encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+							allowfullscreen></iframe>
+							<p class="caption">Credit: <a href="https://www.youtube.com/watch?v=JqzWUxtukbA" class="link">NBA</a>, 
+								Run TMC's High-Scoring Offense</p>
+						</div>
 
 						<p>The Oakland Athletics of the 1990s, after a strong start that saw them reach the World Series in 1990 
 							and come close again in 1992, experienced a significant decline marked by a string of losing seasons 
@@ -496,10 +516,13 @@
 								<p>In 2005 John Fisher and his business partner Lew Wolf would buy the Oakland A’s and shortly after will 
 									begin searching for a new home for the organization. </p>
 							</div>
-					
-							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lUVlSwQ9tSU?si=3d30r-xzGZgnHq1V" 
-							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-							gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							<div class="youtube-video" style:height={"100%"}>
+								<iframe width="100%" style:height={"90%"} src="https://www.youtube.com/embed/lUVlSwQ9tSU?si=3d30r-xzGZgnHq1V" 
+								title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+								gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+								<p class="caption">Credit: <a href="https://www.youtube.com/watch?v=lUVlSwQ9tSU" 
+									class="link">MLB</a>, Hatteberg hits walk-off homer, A's win 20th straight game. Sept. 4, 2002.</p>
+							</div>
 
 						</div>
 
@@ -514,9 +537,21 @@
 
 							<p>Yet by 2019, heartbreak returned when the Raiders announced their relocation and the Warriors played their final game 
 								at Oracle Arena before their move to San Francisco, marking the end of chapter. </p>
+							
+							<div class="youtube-video">
+								<iframe width="100%" height="415" src="https://www.youtube.com/embed/LAP38SwoQKs?si=bwP1m04nIv8nDcg3" 
+								title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+								encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+								allowfullscreen></iframe>
+								<p class="caption">Credit: <a href="https://www.youtube.com/watch?v=LAP38SwoQKs" 
+									class="link">CBS News</a>, Oakland Raiders Fans Disappointed by Team's Move. March 28, 2017.</p>
+							</div>
 
 							<p>The Warriors played their final home game at Oracle Arena on April 7, 2019, before officially moving to Chase 
 								Center, which opened September 6, 2019.  </p>
+
+							<p>As for the A's, the organization began talks of building a new stadium at Howard Terminal with the city back in 2018,
+								leaving fans believing the team was committed to staying in Oakland. </p>
 
 					</details>
 					<details>
@@ -527,6 +562,14 @@
 							<h6>2021</h6>
 								<p>Starting with the 2021 season, owner John Fisher slashed the Oakland A’s payroll and traded away key stars like 
 									Matt Olson, Matt Chapman, and Sean Manaea, signaling a shift away from competitive ambitions. </p>
+								
+								<div class="youtube-video">
+									<iframe width="100%" height="450" src="https://www.youtube.com/embed/lKtvBF7wPFI?si=tQQisZN5L6XIU5IQ&amp" 
+									title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+									gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									<p class="caption">Credit: <a href="https://www.youtube.com/watch?v=lKtvBF7wPFI" 
+										class="link">NBC Sports</a>, A's take an important step forward in Howard Terminal ballpark plans. Dec. 17, 2021.</p>
+								</div>
 							<h6>2022</h6>
 								<p>In 2022, the Warriors triumphantly returned to championship form, winning another NBA title — this time in San Francisco.
 									Meanwhile, attendance at the Coliseum plummeted, and fan frustration with Fisher’s lack of investment and commitment to 
@@ -539,16 +582,29 @@
 								<p>In 2023 and 2024, the A’s posted one of the league’s worst records and secured MLB approval to relocate to Las Vegas, 
 									cementing Fisher’s role in the franchise’s decline and departure. </p>
 
-							<h6>2024</h6>
-								<p>In April 2024, the Athletics announced they would move to Las Vegas by the 2028 MLB season and abandon the Coliseum at 
-									the end of the season. The team will play at Sutter Health Park in West Sacramento from 2025 to 2027 until their Vegas 
-									ballpark is ready.</p>
-	
-								<p>The Oakland Roots revealed plans to play their 2025 season at the historic Coliseum, keeping local soccer alive in the city. </p>
+							<div class="grid">
+								<div>
+									<h6>2024</h6>
+									<p>In April 2024, after talks of a new stadium at Howard Terminal fell through, the Athletics announced they would move to 
+										Las Vegas by the 2028 MLB season and abandon the Coliseum at the end of the season. 
+										The team will play at Sutter Health Park in West Sacramento from 2025 to 2027 until their Vegas 
+										ballpark is ready.</p>
 
-								<p>The Pioneer League baseball team the Oakland Ballers were formed, adding a fresh energy to the city’s sports landscape.  </p>
-							
-								<Video src="demo/assets/videos/Dave/Dave-Misrepresented.mp4" alt="The Comeback Kid"/>
+									<p>The Oakland Roots revealed plans to play their 2025 season at the historic Coliseum, keeping 
+										local soccer alive in the city. </p>
+
+									<p>The Pioneer League baseball team the Oakland Ballers were formed, adding a fresh energy to the city’s 
+										sports landscape.  </p>
+								</div>
+								<div class="youtube-video" style:height={"75%"} style:margin-bottom={"2rem"}>
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/mOV4vo1eo1M?si=-gapE1tbgRmN44v1&amp;start=109" 
+									title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+									gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									<p class="caption">
+										Credit: <a href="https://www.youtube.com/watch?v=mOV4vo1eo1M" 
+										class="link">ABC7 News</a>, Larry Beil rips into A's owner John Fischer for his letter to Oakland fans. Sept. 23, 2024.</p>
+								</div>
+							</div>
 					</details>
 					<details>
 						<summary>2025-Present - The Future of Oakland Sports</summary>
@@ -557,6 +613,7 @@
 
 							<p>Oakland’s proud sports spirit not only survives, it's building a bright, diverse future for the city’s fans and communities. </p>
 
+							<Video src="demo/assets/videos/Dave/Dave-Misrepresented.mp4" alt="The Comeback Kid"/>
 					</details>
 					  
 				</div>
@@ -564,8 +621,8 @@
 			{:else if selected === 'fans'}
 				<div class="content" style:padding-top={"1rem"}>
 					<div class="grid" style:grid-column-gap={"75px"} style:margin-bottom={"1rem"}>
-						<div class="group" style:padding-left={"3.6rem"}>
-							<h2 class="title" style:font-size={"7rem"} style:text-align="left" 
+						<div class="group" style:padding-left={"2.6rem"}>
+							<h2 class="title" style:font-size={"6rem"} style:text-align="left" 
 							style:margin-bottom={"2rem"} style:margin={"0"} style:white-space={"nowrap"}>The Fans</h2>
 							<p>A new chapter is unfolding for Oakland sports fans across three teams: 
 								the Oakland Ballers bringing baseball to Raimondi Park, the Oakland 
@@ -587,10 +644,11 @@
 								"They don't always have to win the championship, but they're competitive. Fans will support you. 
 								If you treat them dishonestly, it's like, take a hike. Hit the road, Buster. The dance is over.” </p>
 						</div>
-						<div class="video-wrapper" style:max-width={"85%"}>
+						<div class="video-wrapper" style:max-width={"98%"}>
 							<Video
 								src="demo/assets/videos/rootsfans.mov"
 								alt="Roots Fan Video" 
+								caption="Video by Jessica Blough, Marquis Chambers and Daniela Sandoval"
 								controls
 								hasBorder={true}/>
 						</div>
@@ -801,7 +859,7 @@
 	.content {
 		text-align: left;
 		font-size: medium;
-		padding: 0 300px;
+		padding: 0 350px;
 		margin: auto;
 		font-weight: 100;
 	}
@@ -920,6 +978,18 @@
 		width: 400;
 		max-width: 100%;
 		max-height: 500;
+	}
+
+	.caption {
+		font-size: 0.9rem;
+		color: black;
+		margin-top: 0.5rem;
+		margin-bottom: 0;
+	}
+
+	.link {
+		color: rgb(0, 101, 224);
+		text-decoration: underline;
 	}
 
 </style>
