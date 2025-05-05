@@ -621,7 +621,7 @@
 			{:else if selected === 'fans'}
 				<div class="content" style:padding-top={"1rem"}>
 					<div class="grid" style:grid-column-gap={"75px"} style:margin-bottom={"1rem"}>
-						<div class="group" style:padding-left={"1rem"}>
+						<div class="group" style:padding-left={"2.6rem"}>
 							<h2 class="title" style:font-size={"6rem"} style:text-align="left" 
 							style:margin-bottom={"2rem"} style:margin={"0"} style:white-space={"nowrap"}>The Fans</h2>
 							<p>A new chapter is unfolding for Oakland sports fans across three teams: 
