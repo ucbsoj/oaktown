@@ -52,6 +52,16 @@
 				</div>
 			{/if}
 
+			{#if (scrollY ?? 0) < 80}
+				<div class="scroll-cue" aria-hidden="true" transition:fade={{duration: 400}}>
+					<span>Scroll</span>
+					<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor"
+						stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+						<path d="m6 9 6 6 6-6"/>
+					</svg>
+				</div>
+			{/if}
+
 		<div class="news-container">
 			{#if value === 1 || value === 2 || value === 3}
 				<!-- svelte-ignore a11y_missing_attribute -->
@@ -728,7 +738,7 @@
 	}
 
 	.spacer {
-		height: 75vh;
+		height: 25vh;
 	}
 
 	.step {
@@ -768,6 +778,46 @@
 		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.1);
 	}
 
+
+	.scroll-cue {
+		position: absolute;
+		bottom: 1.5rem;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		color: white;
+		pointer-events: none;
+	}
+
+	.scroll-cue span {
+		background: rgb(0 0 0 / 0.6);
+		padding: 0.1em 0.5em;
+		font-family: var(--sans, sans-serif);
+		font-size: 2rem;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+	}
+
+	.scroll-cue svg {
+		width: 138px;
+		height: 138px;
+		filter: drop-shadow(0 1px 3px rgb(0 0 0 / 0.7));
+		animation: scroll-bob 1.8s ease-in-out infinite;
+	}
+
+	@keyframes scroll-bob {
+		0%, 100% { transform: translateY(0); opacity: 0.6; }
+		50% { transform: translateY(6px); opacity: 1; }
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.scroll-cue svg {
+			animation: none;
+		}
+	}
 
 	.title {
     	font-family: "Mexcellent 3D";
